@@ -31,7 +31,7 @@
         flex-direction: row;
         border-radius: 10px;
         background-color: hsl(244, 38%, 16%);
-        max-width: 1000px;
+        width: 1050px;
       }
       .content {
         padding: 75px;
@@ -39,19 +39,24 @@
       h1 {
         font-family: "Inter", monospace;
         color: hsl(0, 0%, 100%);
+        padding-bottom: 30px;
       }
       .highlight {
         color: hsl(277, 64%, 61%);
         font-weight: 700;
       }
       p {
+        line-height: 1.75;
         font-family: "Inter", monospace;
         color: hsla(0, 0%, 100%, 0.75);
         font-weight: 400;
+        margin-bottom: 60px;
       }
       .stats {
         display: flex;
         flex-direction: row;
+        justify-content: space-between;
+        max-width: 90%;
       }
       .score {
         font-family: "Inter", monospace;
@@ -62,6 +67,7 @@
         font-family: "Lexend Deca", monospace;
         font-weight: 400;
         color: hsla(0, 0%, 100%, 0.6);
+        text-transform: uppercase;
       }
       .image {
         background: linear-gradient(
@@ -71,8 +77,8 @@
           ),
           url("./images/image-header-desktop.jpg") no-repeat top center;
         background-size: cover;
-        height: 400px;
-        width: 1000px;
+        height: 100%;
+        width: 1200px;
         overflow: hidden;
         color: #ffffff;
         border-radius: 0 10px 10px 0;
